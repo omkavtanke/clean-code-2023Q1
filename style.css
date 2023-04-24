@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add-block_wrapper {
   display: flex;
@@ -47,7 +47,7 @@ input,button{
 }
 .btn {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -116,7 +116,7 @@ input,button{
   width: 226px;
 }
 .li > .input_task {
-  width: 226px
+  width: 226px;
 }
 .btn.delete .todo-block_button-img {
   height: 2em;
@@ -129,18 +129,18 @@ input,button{
 
 /* Completed */
 #completed-tasks .task_label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .li .input_task {
-  display: none
+  display: none;
 }
 
 .li.todo-block_task_edit .input_task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .li.todo-block_task_edit .task_label {
