@@ -40,10 +40,10 @@ ul {
   padding: 0;
 }
 li, h3 {
-  list-style:none;
+  list-style : none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -135,14 +135,14 @@ input,button{
 
 /* Edit Task */
 .li .input_task {
-  display:none
+  display: none
 }
 
 .li.todo-block_task_edit .input_task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .li.todo-block_task_edit .task_label {
-  display:none;
+  display: none;
 }
